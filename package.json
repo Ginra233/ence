@@ -1,17 +1,21 @@
 {
-  "name": "js-obfuscator-web",
+  "name": "ence",
   "version": "1.0.0",
-  "description": "Web interface for JsConfuser obfuscation (fixed version)",
+  "description": "Web Obfuscator Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "author": "Ginra233",
+  "license": "MIT",
   "dependencies": {
-  "express": "^4.18.2",
-  "multer": "^1.4.5-lts.1",
-  "socket.io": "^4.7.2",
-  "js-confuser": "^1.0.0",
-  "fs-extra": "^11.1.1",
-  "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "http": "^0.0.1-security",
+    "js-confuser": "^1.4.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5"
   }
 }
