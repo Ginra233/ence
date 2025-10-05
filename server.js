@@ -501,7 +501,7 @@ io.on("connection", (socket) => {
 
 // === START SERVER ===
 const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || "0.0.0.0";
+const HOST = process.env.HOST || "142.93.236.175";
 
 server.listen(PORT, HOST, () => {
   log(`Server running at http://${HOST}:${PORT}`);
